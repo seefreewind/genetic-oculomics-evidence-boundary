@@ -2,7 +2,8 @@
 
 Release version: 1.0.0  
 Release date: 2026-09-21  
-Repository: `seefreewind/genetic-oculomics-evidence-boundary`
+Repository: `seefreewind/genetic-oculomics-evidence-boundary`  
+Zenodo archive: [10.5281/zenodo.22875272](https://doi.org/10.5281/zenodo.22875272)
 
 The frozen public package contains 112 genome-wide correlation pairs, 116,472 primary local tests, 26,639 native local-audit rows, 224 bidirectional MR directions, and the prespecified CRAE–CKD instrument reconstruction. The release preserves null, suggestive, unresolved, and boundary-sensitive results instead of exporting only nominally interesting rows.
 

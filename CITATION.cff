@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-09-21
 repository-code: "https://github.com/seefreewind/genetic-oculomics-evidence-boundary"
+doi: "10.5281/zenodo.22875272"
 authors:
   - family-names: Lin
     given-names: Da

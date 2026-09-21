@@ -24,7 +24,7 @@ The project intentionally does not include raw GWAS data, participant-level data
 
 ## Citation
 
-Please cite this repository using `CITATION.cff`. A DOI can be added after archival in a repository service such as Zenodo.
+Please cite the archived release with DOI [10.5281/zenodo.22875272](https://doi.org/10.5281/zenodo.22875272) and use `CITATION.cff` for structured citation metadata. The GitHub repository remains the living code and metadata record.
 
 ## Licence
 
