@@ -1,0 +1,12 @@
+date	item_id	phase	decision	reason	replacement	amendment
+2026-09-09	ret_currant_inner_layers	0E	SECONDARY	Same UKB imaging source and lower N than Zhao 2024 for RNFL/GCIPL.	ret_rnfl_left;ret_gcipl_left	initial
+2026-09-09	ret_jiang_vasculometry	0E	SECONDARY	Overlapping vascular definitions with smaller N than Ortín Vela 2024.	ret_art_tort;ret_ven_tort;ret_crae;ret_crve	initial
+2026-09-09	ret_tomasoni_tortuosity	0E	SECONDARY_VALIDATION	Discovery is UKB and overlaps primary vascular GWAS; independent Swiss replication is small.	ret_art_tort;ret_ven_tort	initial
+2026-09-09	ret_spatial_fpc	0E	SECONDARY	Functional PCs are spatially informative but less biologically direct than named layer sentinels.	named OCT layers	initial
+2026-09-09	ret_age_gap	0A	EXCLUDE_PENDING_ACCESS	No direct anonymous genome-wide summary-statistics download was verified.	none	initial
+2026-09-09	sys_ms_patsopoulos2019	0A	EXCLUDE_PENDING_ACCESS	Full IMSGC data require an approved request; GWAS Catalog release is not a directly usable full file.	none	initial
+2026-09-09	sys_copd_hobbs2017	0A	EXCLUDE_OPTIONAL_PENDING_ACCESS	Consortium-wide full summary statistics not verified as an immediate public download.	none	initial
+2026-09-09	sys_hf_shah2020_full_ukb	0B	SENSITIVITY_ONLY	Direct UK Biobank overlap with every primary retinal GWAS.	sys_hf_shah2020_noukb	initial
+2026-09-09	sys_pd_nalls2019_proxy_ukb	0B	SENSITIVITY_ONLY	Uses UK Biobank proxy cases and controls; high overlap and proxy-phenotype concerns.	sys_pd_nalls2019_clinical	initial
+2026-09-09	sys_ra_okada2014_eur	0A	CONDITIONAL_HOLD	Official EBI file is trans-ethnic; European-only original file is not directly exposed and OpenGWAS requires authenticated third-party access.	none	initial
+2026-09-09	phase0_full_downloads	0C/0D	HOLD_INFRASTRUCTURE	Resumable Zenodo/EBI/MRC-IEU transfers remained incomplete after an extended run; partial files are not analytic inputs.	resume exact locked URLs when bandwidth permits	download_attempt_1

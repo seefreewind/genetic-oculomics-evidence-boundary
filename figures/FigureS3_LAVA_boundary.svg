@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="517.801875pt" height="273.192375pt" viewBox="0 0 517.801875 273.192375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T19:18:07.324275</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 273.192375 
+L 517.801875 273.192375 
+L 517.801875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 41.451875 247.001 
+L 510.601875 247.001 
+L 510.601875 19.02375 
+L 41.451875 19.02375 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 62.776875 247.001 
+L 118.40731 247.001 
+L 118.40731 38.272424 
+L 62.776875 38.272424 
+z
+" clip-path="url(#p16ccda9829)" style="fill: #7653a8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 155.494266 247.001 
+L 211.124701 247.001 
+L 211.124701 242.724886 
+L 155.494266 242.724886 
+z
+" clip-path="url(#p16ccda9829)" style="fill: #9b7dba"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 248.211658 247.001 
+L 303.842092 247.001 
+L 303.842092 246.16303 
+L 248.211658 246.16303 
+z
+" clip-path="url(#p16ccda9829)" style="fill: #c7b4d6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 340.929049 247.001 
+L 396.559484 247.001 
+L 396.559484 246.890092 
+L 340.929049 246.890092 
+z
+" clip-path="url(#p16ccda9829)" style="fill: #d97832"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 433.64644 247.001 
+L 489.276875 247.001 
+L 489.276875 246.902415 
+L 433.64644 246.902415 
+z
+" clip-path="url(#p16ccda9829)" style="fill: #b0444a"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m8153a98fc8" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8153a98fc8" x="90.592092" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(68.583811 258.295688)">Native CIs touch</text>
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(81.277092 264.729563)">|rho|=1</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m8153a98fc8" x="183.309484" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="183.309484" y="258.368813" transform="rotate(-0 183.309484 258.368813)">Raw |rho|&gt;1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m8153a98fc8" x="276.026875" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="276.026875" y="258.368813" transform="rotate(-0 276.026875 258.368813)">Raw |rho|&gt;1.25</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m8153a98fc8" x="368.744266" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="368.744266" y="258.295688" transform="rotate(-0 368.744266 258.295688)">Native FDR rows</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m8153a98fc8" x="461.461658" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(435.949939 258.295688)">Boundary-sensitive</text>
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(448.129001 264.712125)">FDR rows</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m99f924a7d9" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="247.001" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="249.148344" transform="rotate(-0 34.451875 249.148344)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="216.193264" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="218.340607" transform="rotate(-0 34.451875 218.340607)">2500</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="185.385527" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="187.532871" transform="rotate(-0 34.451875 187.532871)">5000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="154.577791" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="156.725134" transform="rotate(-0 34.451875 156.725134)">7500</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="123.770054" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="125.917398" transform="rotate(-0 34.451875 125.917398)">10000</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="92.962318" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="95.109661" transform="rotate(-0 34.451875 95.109661)">12500</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="62.154581" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="64.301925" transform="rotate(-0 34.451875 64.301925)">15000</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m99f924a7d9" x="41.451875" y="31.346845" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font: 6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="34.451875" y="33.494188" transform="rotate(-0 34.451875 33.494188)">17500</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font: 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="12.295781" y="133.012375" transform="rotate(-90 12.295781 133.012375)">Rows (native LAVA universe = 26,639)</text>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 41.451875 247.001 
+L 41.451875 19.02375 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 41.451875 247.001 
+L 510.601875 247.001 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font: 700 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="90.592092" y="33.959341" transform="rotate(-0 90.592092 33.959341)">16,938</text>
+   </g>
+   <g id="text_16">
+    <text style="font: 700 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="183.309484" y="238.411803" transform="rotate(-0 183.309484 238.411803)">347</text>
+   </g>
+   <g id="text_17">
+    <text style="font: 700 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="276.026875" y="241.849946" transform="rotate(-0 276.026875 241.849946)">68</text>
+   </g>
+   <g id="text_18">
+    <text style="font: 700 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="368.744266" y="242.577009" transform="rotate(-0 368.744266 242.577009)">9</text>
+   </g>
+   <g id="text_19">
+    <text style="font: 700 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="461.461658" y="242.589332" transform="rotate(-0 461.461658 242.589332)">8</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #4b5563; font: 7px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end" x="505.910375" y="28.679076" transform="rotate(-0 505.910375 28.679076)">Boundary-touching CIs: 63.6% of rows</text>
+   </g>
+   <g id="text_21">
+    <text style="font: 700 8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="41.451875" y="13.02375" transform="rotate(-0 41.451875 13.02375)">Supplementary Figure 3. Native LAVA boundary diagnostics</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p16ccda9829">
+   <rect x="41.451875" y="19.02375" width="469.15" height="227.97725"/>
+  </clipPath>
+ </defs>
+</svg>

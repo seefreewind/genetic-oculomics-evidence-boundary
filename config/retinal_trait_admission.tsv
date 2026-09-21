@@ -1,0 +1,17 @@
+trait	domain	h2	h2_z	n_iv	mean_f	redundancy_cluster	max_abs_rg	primary	secondary	excluded	reason
+ret_rnfl_left	neuroretina	0.1174	7.158536585365853	17	62.150142040488696	R01	0.3994	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_gcipl_left	neuroretina	0.1722	9.566666666666666	34	64.53492425237394	R02	0.7474	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_inl_left	neuroretina	0.2471	7.919871794871795	65	67.17329387870451	R03	0.6605	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_inl_elm_left	neuroretina	0.2928	5.663442940038684	84	83.06779598018377	R04	0.9818	TRUE	FALSE	FALSE	strong internal redundancy component (|rg|>=0.90); sentinel=ret_inl_elm_left
+ret_onl_mean	outer_retina	0.2952	4.831423895253683	61	71.35034403245689	R04	0.9818	FALSE	TRUE	FALSE	strong internal redundancy component (|rg|>=0.90); sentinel=ret_inl_elm_left
+ret_elm_isos_left	outer_retina	0.1273	6.090909090909091	22	52.1870746587498	R05	0.5518	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_isos_rpe_left	outer_retina	0.1415	8.27485380116959	51	77.10401759957489	R06	0.2462	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_macular_total_left	outer_retina	0.2346	10.244541484716157	66	59.90530127676204	R07	0.7474	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_art_tort	microvasculature	0.1718	8.54726368159204	84	86.72517332794115	R08	0.5544	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_ven_tort	microvasculature	0.1	4.975124378109453	43	73.91052276452527	R09	0.5544	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_crae	microvasculature	0.0641	8.662162162162163	6	50.459199841706685	R10	0.5195	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_crve	microvasculature	0.0812	4.98159509202454	26	57.28545101305306	R11	0.529	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_avr	microvasculature	0.0495	4.805825242718447	7	78.0617353595258	R12	0.529	TRUE	FALSE	FALSE	no strong internal redundancy; retained as primary
+ret_art_density	microvasculature	0.0766	9.696202531645568	12	72.17292329518072	R13	0.8971	TRUE	FALSE	FALSE	moderate internal rg (0.75-<0.90); retained pending biological adjudication
+ret_ven_density	microvasculature	0.0662	7.8809523809523805	16	69.17294953297072	R14	0.9456	TRUE	FALSE	FALSE	strong internal redundancy component (|rg|>=0.90); sentinel=ret_ven_density
+ret_bifurcations	microvasculature	0.07	10.144927536231885	14	73.15770829921496	R14	0.9456	FALSE	TRUE	FALSE	strong internal redundancy component (|rg|>=0.90); sentinel=ret_ven_density

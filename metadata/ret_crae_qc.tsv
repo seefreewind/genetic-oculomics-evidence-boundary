@@ -1,0 +1,17 @@
+metric	value	status	evidence
+trait_id	ret_crae	PASS	full local input scan
+path	data/raw/retinal/ret_crae__GCST90446763.tsv.gz.complete	PASS	full local input scan
+rows	15600562	PASS	full local input scan
+malformed_rows	0	PASS	full local input scan
+missing_essential	0	PASS	full local input scan
+missing_coordinates	0	PASS	full local input scan
+duplicate_variants	74764	PASS	full local input scan
+duplicate_method	exact rsID, falling back to chromosome:position:alleles	PASS	full local input scan
+indels_or_complex	265131	PASS	full local input scan
+multiallelic_encoded	0	PASS	full local input scan
+palindromic_snps	2246555	PASS	full local input scan
+chromosome_x	0	PASS	full local input scan
+gws_hits_before_clumping	427	PASS	full local input scan
+column_map	"{""beta"": 4, ""chr"": 0, ""ea"": 2, ""eaf"": 6, ""info"": 9, ""n"": 10, ""oa"": 3, ""or"": null, ""p"": 7, ""pos"": 1, ""rsid"": 8, ""se"": 5}"	PASS	full local input scan
+full_file_qc	COMPLETE	PASS	full local input scan
+qc_verdict	PASS_WITH_SCHEMA	PASS	full local input scan

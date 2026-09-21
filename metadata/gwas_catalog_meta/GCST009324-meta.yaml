@@ -1,0 +1,33 @@
+# Study meta-data
+gwas_id: GCST009324
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST009324
+date_metadata_last_modified: 2025-01-04
+
+# Trait Information
+trait_description:
+  - Parkinson's disease
+ontology_mapping:
+  - ''
+
+# Genotyping Information
+genome_assembly: GRCh37
+coordinate_system: 1-based
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 27693
+    case_control_study: true
+sex: combined
+
+# Summary Statistic information
+data_file_name: GCST009324.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: 92b8ca1a22cf917e4bd5c545a848b8d7
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

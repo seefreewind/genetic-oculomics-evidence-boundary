@@ -1,0 +1,24 @@
+metric	value	status	evidence
+trait_id	sys_hf_shah2020_noukb	PASS	phenotype_registry.tsv
+download_url	https://api.kpndataregistry.org/api/d/3pxqJY	PASS	YES
+genome_build	GRCh37	PASS	paper/repository metadata
+rsid_availability	TO_VERIFY	NOT_RUN	sampled header/metadata only
+chromosome	TO_VERIFY	NOT_RUN	sampled header/metadata only
+position	TO_VERIFY	NOT_RUN	sampled header/metadata only
+effect_allele	TO_VERIFY	NOT_RUN	sampled header/metadata only
+other_allele	TO_VERIFY	NOT_RUN	sampled header/metadata only
+beta_or_or	logOR	PASS_METADATA	paper/repository metadata
+standard_error	TO_VERIFY	NOT_RUN	sampled header/metadata only
+p_value	TO_VERIFY	NOT_RUN	sampled header/metadata only
+effect_allele_frequency	TO_VERIFY	NOT_RUN	sampled header/metadata only
+sample_size_column	present in Ortín Vela SSF; study-level otherwise	PARTIAL	sampled header/metadata only
+info	present in Ortín Vela SSF; variable otherwise	PARTIAL	sampled header/metadata only
+allele_consistency	NOT_RUN_FULL_FILE	NOT_RUN	requires full file/reference
+duplicated_snps	NOT_RUN_FULL_FILE	NOT_RUN	requires full file
+indels	NOT_RUN_FULL_FILE	NOT_RUN	requires full file
+multiallelic_variants	NOT_RUN_FULL_FILE	NOT_RUN	requires full file
+palindromic_variants	NOT_RUN_FULL_FILE	NOT_RUN	requires full file
+chromosome_x	NOT_RUN_FULL_FILE	NOT_RUN	requires full file
+genome_wide_completeness	FULL	PASS_METADATA	repository listing; row counts pending
+input_checksum	repository MD5 available for GWAS Catalog/Zenodo files; per-file manifest pending full download	PARTIAL	repository metadata
+overall_qc	HOLD_FULL_FILE_QC	HOLD	No large full-statistics download was started during metadata-first Phase 0A

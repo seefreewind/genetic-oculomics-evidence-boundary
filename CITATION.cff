@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Genetic oculomics evidence-boundary release"
+message: "If you use these materials, please cite this repository and the original GWAS resources listed in the provenance files."
+type: software
+version: 1.0.0
+date-released: 2026-09-21
+repository-code: "https://github.com/seefreewind/genetic-oculomics-evidence-boundary"
+authors:
+  - family-names: Lin
+    given-names: Da
+  - family-names: Chen
+    given-names: Ying
+  - family-names: Liu
+    given-names: Yue
+  - family-names: Zhang
+    given-names: Yu
+    orcid: "https://orcid.org/0000-0001-8579-3692"
+keywords:
+  - retinal imaging genetics
+  - GWAS summary statistics
+  - genetic correlation
+  - local genetic correlation
+  - Mendelian randomization
+  - reproducibility
+license: MIT

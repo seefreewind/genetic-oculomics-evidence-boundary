@@ -1,0 +1,17 @@
+metric	value	status	evidence
+trait_id	ret_onl_mean	PASS	full local input scan
+path	data/raw/retinal/ret_onl_mean__GCST90243953_buildGRCh37.tsv.complete	PASS	full local input scan
+rows	9745600	PASS	full local input scan
+malformed_rows	0	PASS	full local input scan
+missing_essential	0	PASS	full local input scan
+missing_coordinates	0	PASS	full local input scan
+duplicate_variants	0	PASS	full local input scan
+duplicate_method	exact rsID, falling back to chromosome:position:alleles	PASS	full local input scan
+indels_or_complex	1145271	PASS	full local input scan
+multiallelic_encoded	0	PASS	full local input scan
+palindromic_snps	1342357	PASS	full local input scan
+chromosome_x	0	PASS	full local input scan
+gws_hits_before_clumping	9600	PASS	full local input scan
+column_map	"{""beta"": 8, ""chr"": 2, ""ea"": 5, ""eaf"": 7, ""info"": null, ""n"": null, ""oa"": 6, ""or"": null, ""p"": 1, ""pos"": 3, ""rsid"": 4, ""se"": 9}"	PASS	full local input scan
+full_file_qc	COMPLETE	PASS	full local input scan
+qc_verdict	PASS_WITH_SCHEMA	PASS	full local input scan

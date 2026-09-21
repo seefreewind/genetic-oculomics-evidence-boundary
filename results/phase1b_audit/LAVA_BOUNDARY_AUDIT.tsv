@@ -1,0 +1,20 @@
+metric	count	denominator	fraction	note
+historical_abs_rho_ge_0.90	566	26639	0.021247	capped historical LAVA output
+native_abs_rho_ge_0.90	566	26639	0.021247	native run.bivar output
+raw_abs_rho_ge_0.90	634	26639	0.0238	raw estimate before LAVA cap
+historical_abs_rho_ge_0.95	407	26639	0.015278	capped historical LAVA output
+native_abs_rho_ge_0.95	407	26639	0.015278	native run.bivar output
+raw_abs_rho_ge_0.95	475	26639	0.017831	raw estimate before LAVA cap
+historical_abs_rho_ge_0.99	305	26639	0.011449	capped historical LAVA output
+native_abs_rho_ge_0.99	305	26639	0.011449	native run.bivar output
+raw_abs_rho_ge_0.99	373	26639	0.014002	raw estimate before LAVA cap
+historical_rho_eq_plus1	134	26639	0.00503	capped historical output
+historical_rho_eq_minus1	145	26639	0.005443	capped historical output
+native_rho_eq_plus1	134	26639	0.00503	native output
+native_rho_eq_minus1	145	26639	0.005443	native output
+native_ci_touches_boundary	16938	26639	0.635835	95% CI at or beyond capped boundary
+raw_out_of_bounds_abs_rho_gt_1	347	26639	0.013026	raw estimate before cap
+raw_out_of_param_lim_abs_rho_gt_1_25	68	26639	0.002553	would be filtered by param.lim=1.25
+raw_na_due_to_param_filter_or_failed_estimate	0	26639	0.0	raw estimate unavailable
+old_significant_boundary_ci	1867	1877	0.994672	historical-significant rows
+native_significant_boundary_ci	8	9	0.888889	native-significant rows

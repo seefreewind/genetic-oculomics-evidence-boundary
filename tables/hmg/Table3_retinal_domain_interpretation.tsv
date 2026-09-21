@@ -1,0 +1,4 @@
+retinal_domain	traits	genome_wide_evidence	primary_local_evidence	directional_evidence	interpretation_boundary
+Neuroretina	RNFL, GCIPL, INL, INL-to-ELM	0/32 FDR-positive LDSC pairs	No robust HDL-L sharing	No robust directional pattern	No robust evidence under the current common-variant framework; downstream or predictive relevance remains possible
+Outer retina	ELM-to-IS/OS, IS/OS-to-RPE, total macular thickness	0/24 FDR-positive LDSC pairs	No robust HDL-L sharing	No robust directional pattern	No mechanistic interpretation supported by the present cross-method evidence
+Microvasculature	Arteriolar/venular tortuosity, CRAE, CRVE, AVR, arterial/venular density	0/56 FDR-positive LDSC pairs	No robust HDL-L sharing; native LAVA sensitivity rows were boundary-sensitive	CRAE-to-CKD failed directionality QC	Vascular association is compatible with systemic biology but is not established as a causal mediator

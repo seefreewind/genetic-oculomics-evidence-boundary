@@ -1,0 +1,17 @@
+metric	value	status	evidence
+trait_id	sys_pd_nalls2019_clinical	PASS	full local input scan
+path	data/raw/systemic/sys_pd_nalls2019_clinical__GCST009324.tsv.gz.complete	PASS	full local input scan
+rows	17409785	PASS	full local input scan
+malformed_rows	0	PASS	full local input scan
+missing_essential	0	PASS	full local input scan
+missing_coordinates	0	PASS	full local input scan
+duplicate_variants	0	PASS	full local input scan
+duplicate_method	exact rsID, falling back to chromosome:position:alleles	PASS	full local input scan
+indels_or_complex	0	PASS	full local input scan
+multiallelic_encoded	0	PASS	full local input scan
+palindromic_snps	2620202	PASS	full local input scan
+chromosome_x	0	PASS	full local input scan
+gws_hits_before_clumping	2776	PASS	full local input scan
+column_map	"{""beta"": 4, ""chr"": 0, ""ea"": 2, ""eaf"": 6, ""info"": null, ""n"": null, ""oa"": 3, ""or"": null, ""p"": 7, ""pos"": 1, ""rsid"": null, ""se"": 5}"	PASS	full local input scan
+full_file_qc	COMPLETE	PASS	full local input scan
+qc_verdict	PASS_WITH_SCHEMA	PASS	full local input scan

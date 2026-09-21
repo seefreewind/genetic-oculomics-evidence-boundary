@@ -1,0 +1,17 @@
+metric	value	status	evidence
+trait_id	ret_inl_left	PASS	full local input scan
+path	data/raw/retinal/ret_inl_left__ret_inl_left.zip.complete	PASS	full local input scan
+rows	7718054	PASS	full local input scan
+malformed_rows	0	PASS	full local input scan
+missing_essential	0	PASS	full local input scan
+missing_coordinates	0	PASS	full local input scan
+duplicate_variants	0	PASS	full local input scan
+duplicate_method	exact rsID, falling back to chromosome:position:alleles	PASS	full local input scan
+indels_or_complex	744842	PASS	full local input scan
+multiallelic_encoded	0	PASS	full local input scan
+palindromic_snps	1079994	PASS	full local input scan
+chromosome_x	0	PASS	full local input scan
+gws_hits_before_clumping	5588	PASS	full local input scan
+column_map	"{""beta"": 7, ""chr"": 0, ""ea"": 3, ""eaf"": null, ""info"": null, ""n"": 5, ""oa"": 4, ""or"": null, ""p"": 9, ""pos"": 2, ""rsid"": 1, ""se"": 8}"	PASS	full local input scan
+full_file_qc	COMPLETE	PASS	full local input scan
+qc_verdict	PASS_WITH_SCHEMA	PASS	full local input scan

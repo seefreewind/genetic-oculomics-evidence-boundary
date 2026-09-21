@@ -1,0 +1,6 @@
+evidence_layer	tests	significant_or_robust	interpretation
+Global LDSC	112	0 global BH-FDR	No robust genome-wide sharing under the primary matrix
+HDL-L	116472 block tests	0 global-local FDR	No robust primary local sharing
+Native LAVA	26639 rows	9 global-FDR; 8/9 boundary-touching	Method- and boundary-sensitive evidence
+Bidirectional MR	224 directions	1 FDR-positive but unresolved	No robust directional signal
+CRAE→CKD audit	1 targeted audit	Directionality failed	DIRECTIONALITY_NOT_SUPPORTED

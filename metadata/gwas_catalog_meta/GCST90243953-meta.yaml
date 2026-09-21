@@ -1,0 +1,34 @@
+# Study meta-data
+gwas_id: GCST90243953
+author_notes: '1. Currant H, Fitzgerald TW, Patel PJ, et al. Sub-cellular level resolution
+  of common genetic variation in the photoreceptor layer identifies continuum between
+  rare disease and common variation. medRxiv;2022. DOI: 10.1101/2022.03.15.22272407
+  2. marker_id: Non rsid formatted genetic variant IDs. 3.'
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90243953
+date_metadata_last_modified: 2025-01-13
+
+# Trait Information
+trait_description:
+  - Outer nuclear layer (ONL) thickness
+ontology_mapping:
+  - EFO_0803371
+
+# Genotyping Information
+genome_assembly: GRCh37
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 31135
+
+# Summary Statistic information
+data_file_name: GCST90243953_buildGRCh37.tsv
+file_type: pre-GWAS-SSF
+data_file_md5sum: bacf462430f9650ebffae49715cfc128
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

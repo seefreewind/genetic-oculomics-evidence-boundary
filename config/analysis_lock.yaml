@@ -1,0 +1,169 @@
+# Formal pre-Phase-1A lock. This file defines the primary matrix and all
+# thresholds; MR/colocalisation/MVMR remain outside the current execution scope.
+lock_status: FORMALLY_LOCKED_PHASE1A
+lock_date_utc: 2026-09-16
+formal_lock_sha256: cfb83497e14d6b0be39a3c54ac9b0e48808eec4d6a949d94e846954a53bcf2be
+ancestry: EUR_primary
+genome_build: GRCh37
+
+primary_retinal_traits:
+  - id: ret_rnfl_left
+    raw_file: data/raw/retinal/ret_rnfl_left__ret_rnfl_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_rnfl_left.sumstats.gz
+  - id: ret_gcipl_left
+    raw_file: data/raw/retinal/ret_gcipl_left__ret_gcipl_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_gcipl_left.sumstats.gz
+  - id: ret_inl_left
+    raw_file: data/raw/retinal/ret_inl_left__ret_inl_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_inl_left.sumstats.gz
+  - id: ret_inl_elm_left
+    raw_file: data/raw/retinal/ret_inl_elm_left__ret_inl_elm_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_inl_elm_left.sumstats.gz
+  - id: ret_elm_isos_left
+    raw_file: data/raw/retinal/ret_elm_isos_left__ret_elm_isos_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_elm_isos_left.sumstats.gz
+  - id: ret_isos_rpe_left
+    raw_file: data/raw/retinal/ret_isos_rpe_left__ret_isos_rpe_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_isos_rpe_left.sumstats.gz
+  - id: ret_macular_total_left
+    raw_file: data/raw/retinal/ret_macular_total_left__ret_macular_total_left.zip.complete
+    munged_file: data/processed/ldsc_munged/ret_macular_total_left.sumstats.gz
+  - id: ret_art_tort
+    raw_file: data/raw/retinal/ret_art_tort__GCST90446760.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_art_tort.sumstats.gz
+  - id: ret_ven_tort
+    raw_file: data/raw/retinal/ret_ven_tort__GCST90446761.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_ven_tort.sumstats.gz
+  - id: ret_crae
+    raw_file: data/raw/retinal/ret_crae__GCST90446763.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_crae.sumstats.gz
+  - id: ret_crve
+    raw_file: data/raw/retinal/ret_crve__GCST90446764.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_crve.sumstats.gz
+  - id: ret_avr
+    raw_file: data/raw/retinal/ret_avr__GCST90446765.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_avr.sumstats.gz
+  - id: ret_art_density
+    raw_file: data/raw/retinal/ret_art_density__GCST90446768.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_art_density.sumstats.gz
+  - id: ret_ven_density
+    raw_file: data/raw/retinal/ret_ven_density__GCST90446769.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/ret_ven_density.sumstats.gz
+
+secondary_retinal_traits:
+  - ret_onl_mean  # strong rg=0.9818 with ret_inl_elm_left
+  - ret_bifurcations  # strong rg=0.9456 with ret_ven_density
+
+primary_systemic_diseases:
+  - id: sys_cad_nikpay2015
+    raw_file: data/raw/systemic/sys_cad_nikpay2015__cad.add.160614.website.txt.complete
+    munged_file: data/processed/ldsc_munged/sys_cad_nikpay2015.sumstats.gz
+  - id: sys_stroke_megastroke2018
+    raw_file: data/raw/systemic/sys_stroke_megastroke2018__MEGASTROKE.2.AIS.EUR.out.complete
+    munged_file: data/processed/ldsc_munged/sys_stroke_megastroke2018.sumstats.gz
+  - id: sys_t2d_scott2017
+    raw_file: data/raw/systemic/sys_t2d_scott2017__METAANALYSIS_DIAGRAM_SE1.txt.complete
+    munged_file: data/processed/ldsc_munged/sys_t2d_scott2017.sumstats.gz
+  - id: sys_ckd_wuttke2019
+    raw_file: data/raw/systemic/sys_ckd_wuttke2019__CKD_overall_EA_JW_20180223_nstud23.dbgap.txt.gz.complete
+    munged_file: data/processed/ldsc_munged/sys_ckd_wuttke2019.sumstats.gz
+  - id: sys_ad_kunkle2019
+    raw_file: data/raw/systemic/sys_ad_kunkle2019__Kunkle_etal_Stage1_results.txt.complete
+    munged_file: data/processed/ldsc_munged/sys_ad_kunkle2019.sumstats.gz
+  - id: sys_pd_nalls2019_clinical
+    raw_file: data/raw/systemic/sys_pd_nalls2019_clinical__GCST009324.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/sys_pd_nalls2019_clinical.sumstats.gz
+  - id: sys_sle_bentham2015
+    raw_file: data/raw/systemic/sys_sle_bentham2015__bentham_2015_26502338_sle_efo0002690_1_gwas.sumstats.tsv.gz.complete
+    munged_file: data/processed/ldsc_munged/sys_sle_bentham2015.sumstats.gz
+  - id: sys_ibd_delange2017
+    raw_file: data/raw/systemic/sys_ibd_delange2017__ibd_build37_59957_20161107.txt.gz.complete
+    munged_file: data/processed/ldsc_munged/sys_ibd_delange2017.sumstats.gz
+
+deferred_systemic:
+  - id: sys_hf_shah2020_noukb
+    status: DEFERRED_DATA_UNAVAILABLE
+    reason: explicit no-UKB HERMES endpoint did not provide a usable full file
+  - id: sys_ra_okada2014_eur
+    status: CONDITIONAL_SECONDARY
+    reason: European-only file is not directly exposed
+
+sensitivity_only_systemic:
+  - sys_hf_shah2020_full_ukb
+  - sys_pd_nalls2019_proxy_ukb
+
+ldsc_reference:
+  population: EUR
+  source: Zenodo_10515792_S-LDSC-reference-files
+  source_url: https://zenodo.org/records/10515792
+  ldscore_prefix: data/reference/ldsc/LDscore/LDscore.
+  weight_prefix: data/reference/ldsc/weights/weights.hm3_noMHC.
+  ldscore_archive_md5: e4352ccf778f296835d73985350a863b
+  weight_archive_md5: a98ac0f089ee285177544a3e6e721ca3
+  hapmap3_merge_file: data/reference/ldsc/w_hm3.noMHC.snplist
+  hapmap3_merge_file_md5: 322099f935d914648fbacd67b61d8864
+  hapmap3_no_mhc_snps: 1172116
+
+ldsc_parameters:
+  software: LDSC_1.0.1_python3_local_build
+  munging_info_min: 0.9
+  munging_maf_min: 0.01
+  munging_chunksize: 500000
+  rg_jackknife_blocks: 200
+  rg_two_step_cutoff: 30
+  allele_policy: strand_unambiguous_SNPs_only; merge_to_EUR_HM3_noMHC
+  coordinate_mapping: unique_exact_EUR_GRCh37_BIM_only
+
+instrument_parameters:
+  genome_wide_p: 5.0e-8
+  clump_r2: 0.001
+  clump_window_kb: 10000
+  reference: data/reference/1kg_v3/EUR
+
+multiple_testing:
+  method: Benjamini_Hochberg
+  phase1a_global_family: all_locked_retinal_x_systemic_pairs
+  phase1a_within_retinal_domain_family: each_retinal_domain_across_locked_systemic_pairs
+
+phase1b_admission_rule:
+  include_if: FDR_significant_OR_(nominal_P<0.05_and_abs_rg>=0.10)_OR_predefined_biology_priority
+  priority_list_frozen_before_rg_review: true
+  # Deterministic biology-priority rules declared before Phase 1A is run.
+  # These rules are retained for Phase 1B admission even if a pair is not
+  # FDR-significant, and are not expanded after seeing Phase 1A estimates.
+  predefined_biology_priority:
+    - retinal_domain: microvasculature
+      systemic_diseases: [sys_cad_nikpay2015, sys_stroke_megastroke2018, sys_t2d_scott2017, sys_ckd_wuttke2019]
+      rationale: retinal vascular architecture and cardiometabolic/vascular disease
+    - retinal_domain: neuroretina
+      systemic_diseases: [sys_ad_kunkle2019, sys_pd_nalls2019_clinical]
+      rationale: neuroretinal structure and neurodegenerative disease
+    - retinal_domain: outer_retina
+      systemic_diseases: [sys_ad_kunkle2019]
+      rationale: outer-retinal structure and Alzheimer disease
+  no_posthoc_additions: true
+
+mr_plan_frozen_for_later:
+  method: IVW_when_eligible
+  instrument_p: 5.0e-8
+  clumping_r2: 0.001
+  clumping_window_kb: 10000
+  sensitivity_methods: [weighted_median, MR_Egger, weighted_mode, MR_PRESSO_when_eligible]
+
+coloc_plan_frozen_for_later:
+  pp4_threshold: 0.80
+  priors_must_be_recorded: true
+
+interpretation_taxonomy:
+  driver: reliable_retinal_to_disease_directional_evidence_only
+  target: reliable_disease_to_retinal_directional_evidence_only
+  bidirectional: reliable_directional_evidence_in_both_directions
+  bystander: positive_shared_genetic_evidence_without_reliable_directional_causal_evidence
+  unresolved: insufficient_instruments_power_overlap_control_or_method_agreement
+  ldsc_only_language: association_or_shared_genetic_architecture_only
+
+analysis_boundary:
+  phase0_internal_rg_completed: true
+  phase1a_cross_trait_ldsc_allowed: true
+  stop_after_phase1a: true
+  forbidden_until_new_user_authorisation: [MR, MVMR, colocalisation, LAVA, GSMR, mediation]
