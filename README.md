@@ -18,7 +18,7 @@ The release is designed to let readers inspect the locked analysis configuration
 
 The analysis uses publicly released GWAS summary statistics and external EUR reference resources. The original summary-statistics files, LD panels, restricted-access files, local software environments, and large intermediate files are intentionally not redistributed here. They must be obtained from their original providers under the applicable terms. The provenance and access notes needed to identify those resources are retained in `config/phenotype_registry.tsv`, `config/analysis_lock.yaml`, and `metadata/gwas_catalog_meta/`.
 
-The scripts use paths relative to a project root and are intended for inspection and adaptation to a local checkout. The report and figure builders consume frozen result tables; they do not silently rerun statistical analyses. Reproduction should preserve the locked thresholds, ancestry definition, multiple-testing families, and declared analysis boundaries.
+The scripts use paths relative to a project root and are intended for inspection and adaptation to a local checkout. The figure and audit scripts consume frozen result tables; they do not silently rerun statistical analyses. Reproduction should preserve the locked thresholds, ancestry definition, multiple-testing families, and declared analysis boundaries.
 
 The project intentionally does not include raw GWAS data, participant-level data, credentials, API tokens, local absolute paths, or submission-only manuscript files. No colocalisation, SuSiE-coloc, CAUSE, LCV, GSMR, MVMR, mediation, pathway/tissue enrichment, gene-prioritisation, or final causal-position classification is part of this release.
 
