@@ -2,7 +2,7 @@
 
 This repository contains the public reproducibility materials for a prespecified human-genetic analysis of retinal structural and retinal microvascular traits in relation to systemic disease.
 
-The release is designed to let readers inspect the locked analysis configuration, phenotype and overlap metadata, frozen summary-result tables, instrument-level audit files, publication figures, and the scripts used to build the evidence report and figures.
+The release is designed to let readers inspect the locked analysis configuration, phenotype and overlap metadata, frozen summary-result tables, instrument-level audit files, publication figures, and the scripts used to build the figures and targeted audit outputs.
 
 ## What is included
 
@@ -11,7 +11,7 @@ The release is designed to let readers inspect the locked analysis configuration
 - `results/`: frozen genome-wide correlation, local genetic-sharing, native local-inference audit, directional MR, and CRAE–CKD instrument-audit tables.
 - `tables/hmg/` and `supplementary/tables/`: machine-readable result tables.
 - `figures/`: vector PDF/SVG display and supplementary figures.
-- `scripts/`: report, figure, audit, and checksum-generation code.
+- `scripts/`: figure, audit, and checksum-generation code.
 - `checksums/`: a checksum manifest from the complete local project artifact set.
 
 ## Reproduction notes
