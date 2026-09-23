@@ -1,0 +1,5 @@
+panel	layer	universe	corrected_result	interpretation
+A	Genome-wide sharing	112 pairs	0 FDR-significant	No corrected broad sharing
+B	Primary local sharing	116,472 block tests	0 global-local FDR	No corrected primary local sharing
+C	Native LAVA sensitivity	26,639 rows	9 FDR; 8/9 boundary-sensitive	Procedure-sensitive local evidence
+D	OCT-only directional MR	112 directions	110 null; 2 suggestive; 0 FDR	No robust OCT directional signal

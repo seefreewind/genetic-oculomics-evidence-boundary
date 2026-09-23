@@ -1,0 +1,4 @@
+retinal_domain	primary_traits	global_evidence	local_evidence	directional_evidence
+Neuroretina	RNFL; GCIPL; INL; INL-to-ELM	No pair survived FDR across all 112 LDSC pairs	Included where admitted in the locked 47-pair subset; no primary HDL-L signal survived correction	Analysed in Amendment 004 OCT-only MR; no robust direction
+Outer retina	ELM-to-IS/OS; IS/OS-to-RPE; total macular thickness	No pair survived FDR across all 112 LDSC pairs	Included where admitted in the locked 47-pair subset; no primary HDL-L signal survived correction	Analysed in Amendment 004 OCT-only MR; no robust direction
+Microvasculature	Arteriolar and venular tortuosity; CRAE; CRVE; AVR; arterial and venular density	Retained in all 112 LDSC pairs	Retained in the originally admitted local pairs	Not evaluated by MR because allele-frequency semantics of the seven source GWAS releases could not be resolved authoritatively

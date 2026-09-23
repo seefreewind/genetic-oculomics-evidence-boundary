@@ -1,0 +1,103 @@
+# Prospective protocol frozen before any Amendment 004 OCT-only MR estimate was calculated or inspected.
+amendment_id: AMENDMENT_004_DATA_INTEGRITY_RESTRICTED_OCT_ONLY_DIRECTIONAL_ANALYSIS
+amendment_date_utc: 2026-09-23T06:13:33Z
+status: LOCKED_BEFORE_OCT_ONLY_HARMONISATION_AND_MR_RESULTS
+reason: unresolved allele-frequency semantics in 7 vascular GWAS releases
+authoritative_mapping_unavailable: true
+
+included_retinal_traits:
+  - ret_rnfl_left
+  - ret_gcipl_left
+  - ret_inl_left
+  - ret_inl_elm_left
+  - ret_elm_isos_left
+  - ret_isos_rpe_left
+  - ret_macular_total_left
+
+excluded_from_mr:
+  - ret_art_tort
+  - ret_ven_tort
+  - ret_crae
+  - ret_crve
+  - ret_avr
+  - ret_art_density
+  - ret_ven_density
+
+systemic_diseases:
+  - sys_cad_nikpay2015
+  - sys_stroke_megastroke2018
+  - sys_t2d_scott2017
+  - sys_ckd_wuttke2019
+  - sys_ad_kunkle2019
+  - sys_pd_nalls2019_clinical
+  - sys_sle_bentham2015
+  - sys_ibd_delange2017
+
+directions:
+  retinal_traits: 7
+  systemic_diseases: 8
+  bidirectional_tests: 112
+
+multiple_testing:
+  family: all_112_primary_directional_tests
+  method: Benjamini-Hochberg
+  output_field: q_amendment004_global
+
+instrument_threshold:
+  p: 5.0e-8
+  source: config/analysis_lock.yaml
+
+clumping:
+  r2: 0.001
+  window_kb: 10000
+  ancestry: EUR
+  LD_reference: data/reference/1kg_v3/EUR
+  source: config/analysis_lock.yaml
+
+harmonisation_policy:
+  base_policy: same_as_original_Phase_2A
+  eligibility_change_only: semantically_valid_sources_only
+  delta_eaf_threshold: 0.20
+  no_automatic_frequency_complement: true
+  reference_frequency_requires_explicit_allele_identity: true
+  unresolved_palindromic_policy: exclude
+
+primary_estimators:
+  one_iv: Wald_ratio
+  two_or_more_iv: IVW_random_effects
+  source: config/amendment_002_phase1b1_phase2a_mr.yaml
+
+sensitivity_estimators:
+  methods: [weighted_median, weighted_mode, MR_Egger, Cochran_Q, Egger_intercept, leave_one_out, MR_PRESSO]
+  eligibility: same_instrument_count_requirements_as_Phase_2A
+
+steiger:
+  method: same_as_Phase_2A
+  instrument_set: Amendment_004_harmonised_instruments
+
+preservation:
+  amendment003_status: CLOSED_WITHOUT_CORRECTED_MR
+  amendment003_reason: AUTHORITATIVE_FREQUENCY_MAPPING_UNAVAILABLE
+  legacy_phase2a_status: LEGACY_INVALID_PENDING_CORRECTION
+  vascular_global_local_results_retained: true
+
+result_blinding:
+  statement: No OCT-only MR estimate was calculated or inspected before Amendment 004 was frozen.
+  dry_run_before_mr: true
+  harmonisation_lock_required_before_mr: true
+
+forbidden:
+  - vascular_frequency_1_minus_f_inference
+  - infer_frequency_semantics_from_1KG_concordance
+  - disable_delta_EAF_QC
+  - substitute_vascular_GWAS
+  - new_traits_or_diseases
+  - new_thresholds_or_estimators
+  - modify_global_or_local_results
+  - coloc
+  - CAUSE
+  - LCV
+  - GSMR
+  - MVMR
+  - pathway_analysis
+  - functional_follow_up

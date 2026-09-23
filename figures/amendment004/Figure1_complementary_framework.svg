@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="401.996042pt" height="235.836pt" viewBox="0 0 401.996042 235.836" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-23T15:19:51.324050</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 235.836 
+L 401.996042 235.836 
+L 401.996042 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="maf87cb66c4" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #3569a8"/>
+    </defs>
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#maf87cb66c4" x="30.57354" y="44.29368" style="fill: #3569a8; stroke: #3569a8"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#maf87cb66c4" x="74.09196" y="44.29368" style="fill: #3569a8; stroke: #3569a8"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#maf87cb66c4" x="117.61038" y="44.29368" style="fill: #3569a8; stroke: #3569a8"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="m45c87e77fb" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #278c88"/>
+    </defs>
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#m45c87e77fb" x="275.85918" y="44.29368" style="fill: #278c88; stroke: #278c88"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#m45c87e77fb" x="311.46516" y="44.29368" style="fill: #278c88; stroke: #278c88"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#m45c87e77fb" x="347.07114" y="44.29368" style="fill: #278c88; stroke: #278c88"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p2ab21ae111)">
+     <use xlink:href="#m45c87e77fb" x="382.67712" y="44.29368" style="fill: #278c88; stroke: #278c88"/>
+    </g>
+   </g>
+   <g id="patch_2">
+    <path d="M 163.10691 63.85014 
+L 238.27509 63.85014 
+Q 242.23131 63.85014 242.23131 61.54938 
+L 242.23131 38.54178 
+Q 242.23131 36.24102 238.27509 36.24102 
+L 163.10691 36.24102 
+Q 159.15069 36.24102 159.15069 38.54178 
+L 159.15069 61.54938 
+Q 159.15069 63.85014 163.10691 63.85014 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #f5f7f9; stroke: #aab3bc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 24.63921 163.9332 
+L 131.45715 163.9332 
+L 131.45715 97.21116 
+L 24.63921 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #ffffff; stroke: #d6dce2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 24.63921 105.26382 
+L 131.45715 105.26382 
+L 131.45715 97.21116 
+L 24.63921 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #3569a8; stroke: #3569a8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 147.28203 163.9332 
+L 254.09997 163.9332 
+L 254.09997 97.21116 
+L 147.28203 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #ffffff; stroke: #d6dce2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 147.28203 105.26382 
+L 254.09997 105.26382 
+L 254.09997 97.21116 
+L 147.28203 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #278c88; stroke: #278c88; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 269.92485 163.9332 
+L 376.74279 163.9332 
+L 376.74279 97.21116 
+L 269.92485 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #ffffff; stroke: #d6dce2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 269.92485 105.26382 
+L 376.74279 105.26382 
+L 376.74279 97.21116 
+L 269.92485 97.21116 
+z
+" clip-path="url(#p2ab21ae111)" style="fill: #d9822b; stroke: #d9822b; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 121.5666 44.29368 
+L 279.8154 44.29368 
+" clip-path="url(#p2ab21ae111)" style="fill: none; stroke: #d6dce2; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 700 9px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="74.09196" y="23.58684" transform="rotate(-0 74.09196 23.58684)">Retinal phenotypes</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 6.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="30.57354" y="60.450058" transform="rotate(-0 30.57354 60.450058)">Neuroretina</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 6.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="74.09196" y="60.450058" transform="rotate(-0 74.09196 60.450058)">Outer retina</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 6.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="117.61038" y="60.450058" transform="rotate(-0 117.61038 60.450058)">Microvasculature</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 700 9px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="327.29004" y="23.58684" transform="rotate(-0 327.29004 23.58684)">Eight systemic diseases</text>
+   </g>
+   <g id="text_6">
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(266.351258 59.949011)">Cardio-</text>
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(263.448539 66.083599)">metabolic</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="311.46516" y="59.949011" transform="rotate(-0 311.46516 59.949011)">Renal</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(338.207562 59.949011)">Neuro-</text>
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(330.141484 66.083599)">degeneration</text>
+   </g>
+   <g id="text_9">
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(370.590917 59.949011)">Immune /</text>
+    <text style="font: 5.8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(366.238198 66.083599)">inflammation</text>
+   </g>
+   <g id="text_10">
+    <text style="font: 700 7.2px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(187.487438 48.109342)">Genetic</text>
+    <text style="font: 700 7.2px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(178.28775 55.714567)">relationships</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #3569a8; font: 700 9px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="30.57354" y="113.31648" transform="rotate(-0 30.57354 113.31648)">A</text>
+   </g>
+   <g id="text_12">
+    <text style="font: 700 7.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.42031" y="113.31648" transform="rotate(-0 44.42031 113.31648)">Genome-wide sharing</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(37.147258 136.792412)">14 retinal traits x 8 diseases</text>
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(54.99768 143.869674)">112 LDSC pairs</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #278c88; font: 700 9px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="153.21636" y="113.31648" transform="rotate(-0 153.21636 113.31648)">B</text>
+   </g>
+   <g id="text_15">
+    <text style="font: 700 7.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="167.06313" y="113.31648" transform="rotate(-0 167.06313 113.31648)">Regional sharing</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(168.223641 136.802003)">Locked 47-pair subset</text>
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(160.401609 143.78274)">HDL-L plus LAVA sensitivity</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #d9822b; font: 700 9px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="275.85918" y="113.31648" transform="rotate(-0 275.85918 113.31648)">C</text>
+   </g>
+   <g id="text_18">
+    <text style="font: 700 7.5px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="289.70595" y="113.31648" transform="rotate(-0 289.70595 113.31648)">Directional evidence</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(267.820086 136.882956)">7 qualified OCT traits x 8 diseases x 2</text>
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(296.983836 143.863693)">112 MR directions</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(286.344945 180.161156)">Vascular traits retained in</text>
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(285.544179 187.141894)">global and local analyses;</text>
+    <text style="fill: #59636e; font: 6.6px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(293.068695 194.199975)">not evaluated by MR</text>
+   </g>
+   <g id="text_21">
+    <text style="font: 700 8px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="200.691" y="207.64764" transform="rotate(-0 200.691 207.64764)">MR restricted prospectively to data-integrity-qualified OCT traits</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2ab21ae111">
+   <rect x="2.88" y="2.88" width="395.622" height="230.076"/>
+  </clipPath>
+ </defs>
+</svg>

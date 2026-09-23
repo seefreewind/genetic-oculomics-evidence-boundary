@@ -1,0 +1,8 @@
+trait_id	display_name	retinal_domain	source_study	frequency_semantics	confidence	included_in_mr	reason
+ret_rnfl_left	RNFL thickness, left eye	neuroretina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_gcipl_left	GCIPL thickness, left eye	neuroretina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_inl_left	INL thickness, left eye	neuroretina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_inl_elm_left	INL-to-ELM thickness, left eye	neuroretina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_elm_isos_left	ELM-to-IS/OS thickness, left eye	outer_retina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_isos_rpe_left	IS/OS-to-RPE thickness, left eye	outer_retina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY
+ret_macular_total_left	Overall macular thickness, left eye	outer_retina	Zhao et al. 2024	EFFECT_ALLELE	HIGH	TRUE	PRIMARY_OCT_TRAIT_WITH_VERIFIABLE_EFFECT_ALLELE_FREQUENCY

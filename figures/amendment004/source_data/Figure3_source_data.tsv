@@ -1,0 +1,8 @@
+metric	value	universe_note
+Historical FDR-significant rows	1877	Same 26,639 rows
+Native FDR-significant rows	9	Same 26,639 rows
+Native CI touches/exceeds |rho|=1	16938	Native 26,639 rows
+Native raw |rho|>1	347	Native 26,639 rows
+Native raw |rho|>1.25	68	Native 26,639 rows
+HDL-L completed block tests	116472	Separate HDL-L universe
+HDL-L global-local FDR-significant	0	Separate HDL-L universe

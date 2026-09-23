@@ -1,0 +1,8 @@
+trait_id	source_file	effect_allele_column	other_allele_column	frequency_column	AF1_corresponds_to_A1	A1_is_effect_allele	evidence	status
+ret_rnfl_left	data/raw/retinal/ret_rnfl_left__ret_rnfl_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_gcipl_left	data/raw/retinal/ret_gcipl_left__ret_gcipl_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_inl_left	data/raw/retinal/ret_inl_left__ret_inl_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_inl_elm_left	data/raw/retinal/ret_inl_elm_left__ret_inl_elm_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_elm_isos_left	data/raw/retinal/ret_elm_isos_left__ret_elm_isos_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_isos_rpe_left	data/raw/retinal/ret_isos_rpe_left__ret_isos_rpe_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS
+ret_macular_total_left	data/raw/retinal/ret_macular_total_left__ret_macular_total_left.zip.complete	A1	A2	AF1	YES	YES	Official GCTA/fastGWA documentation plus source release header	PASS

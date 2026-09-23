@@ -1,0 +1,2 @@
+issue	stage	action	resolution	scientific_rule_changed	author_review_required
+FALSE_LOCK_MISMATCH_DUE_TO_TSV_DTYPE_NORMALISATION	PRE_MR_LOCK_REPRODUCTION	Stopped before effect estimation; preserved locked harmonisation script; created a separate canonical comparator/executor	Require exact categorical/decision equality and numeric allclose equality before calling the unchanged locked estimators	NO	NO

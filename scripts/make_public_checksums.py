@@ -4,15 +4,18 @@
 from __future__ import annotations
 
 import hashlib
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "PUBLIC_RELEASE_SHA256.tsv"
-excluded = {".git", "PUBLIC_RELEASE_SHA256.tsv"}
-files = [
-    p for p in ROOT.rglob("*")
-    if p.is_file() and not any(part in excluded for part in p.parts)
-]
+excluded_files = {"PUBLIC_RELEASE_SHA256.tsv"}
+files = []
+for current, dirs, names in os.walk(ROOT):
+    dirs[:] = [name for name in dirs if name != ".git"]
+    for name in names:
+        if name not in excluded_files and not name.startswith("._"):
+            files.append(Path(current) / name)
 rows = []
 for path in sorted(files):
     rows.append(

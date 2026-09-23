@@ -1,0 +1,131 @@
+# Prospective corrective protocol written and frozen before any corrected MR effect estimate was calculated or inspected.
+amendment_id: AMENDMENT_003_ALLELE_FREQUENCY_SEMANTICS_CORRECTION
+amendment_date_utc: 2026-09-23T02:25:26Z
+status: LOCKED_BEFORE_CORRECTED_HARMONISATION_AND_MR_RESULTS
+authorisation: user_formal_authorisation_2026-09-23
+reason: allele-frequency semantic inconsistency identified during pre-submission audit
+
+scope:
+  analysis: complete_bidirectional_MR_reanalysis
+  directions: all_224_prespecified_directions
+  pairs: 112
+  correction_only: allele_frequency_semantics_and_allele_aware_harmonisation
+  preserve_legacy_outputs: true
+  legacy_status: LEGACY_INVALID_PENDING_CORRECTION
+
+retinal_traits:
+  - ret_rnfl_left
+  - ret_gcipl_left
+  - ret_inl_left
+  - ret_inl_elm_left
+  - ret_elm_isos_left
+  - ret_isos_rpe_left
+  - ret_macular_total_left
+  - ret_art_tort
+  - ret_ven_tort
+  - ret_crae
+  - ret_crve
+  - ret_avr
+  - ret_art_density
+  - ret_ven_density
+
+systemic_diseases:
+  - sys_cad_nikpay2015
+  - sys_stroke_megastroke2018
+  - sys_t2d_scott2017
+  - sys_ckd_wuttke2019
+  - sys_ad_kunkle2019
+  - sys_pd_nalls2019_clinical
+  - sys_sle_bentham2015
+  - sys_ibd_delange2017
+
+instrument_threshold:
+  p: 5.0e-8
+  source: config/analysis_lock.yaml
+
+clumping:
+  r2: 0.001
+  window_kb: 10000
+  ancestry: EUR
+  reference: data/reference/1kg_v3/EUR
+  source: config/analysis_lock.yaml
+
+harmonisation:
+  frequency_semantics_must_be_verified: true
+  allowed_frequency_semantics:
+    - EFFECT_ALLELE
+    - OTHER_ALLELE
+    - REFERENCE_ALLELE
+    - ALTERNATE_ALLELE
+    - MINOR_ALLELE
+    - UNKNOWN
+  frequency_object_fields: [frequency_value, frequency_allele]
+  standardized_target: EFFECT_ALLELE_FREQUENCY
+  complement_only_with_proven_allele_identity: true
+  frequency_semantics_unknown_policy: do_not_use_for_frequency_based_harmonisation
+  frequency_not_mappable_policy: do_not_use_for_delta_eaf_filtering
+  semantic_conflict_policy: stop_affected_GWAS
+  palindromic_policy: same_frozen_phase2a_policy
+  delta_eaf_threshold: 0.20
+  delta_eaf_operator: strictly_greater_than
+  proxy_policy: no_automatic_proxies
+
+primary_estimators:
+  one_iv: Wald_ratio
+  two_or_more_iv: IVW_random_effects
+  source: config/amendment_002_phase1b1_phase2a_mr.yaml
+
+sensitivity_estimators:
+  methods: [weighted_median, weighted_mode, MR_Egger, Cochran_Q, Egger_intercept, leave_one_out]
+  eligibility: same_instrument_count_requirements_as_phase2a
+  mr_presso: only_when_instrument_count_is_sufficient_under_phase2a_rule
+
+steiger:
+  method: same_as_phase2a
+  instrument_set: corrected_harmonised_instruments
+  frequency_semantics: corrected_allele_aware_mapping
+  binary_scale_assumptions: same_as_phase2a
+
+multiple_testing:
+  method: Benjamini_Hochberg
+  primary_family: all_completed_primary_224_direction_tests
+  recompute_complete_family: true
+  reuse_old_q_values: false
+
+classification:
+  rules: unchanged_from_phase2a
+  allowed_statuses: [DIRECTIONAL_MR_SUPPORTED, SUGGESTIVE, NULL, UNRESOLVED]
+  forbidden_labels: [DRIVER, TARGET, BYSTANDER]
+
+result_blinding:
+  statement: No corrected effect estimate had been calculated or inspected before this amendment was frozen.
+  dry_run_before_mr: true
+  harmonisation_lock_required_before_mr: true
+  amendment_004_required_for_any_later_harmonisation_rule_change: true
+
+forbidden:
+  - new_retinal_traits
+  - new_diseases
+  - new_GWAS
+  - new_instrument_threshold
+  - new_clumping_threshold
+  - new_p_value_threshold
+  - new_FDR_family
+  - new_phenotype_selection
+  - result_driven_model_switching
+  - coloc
+  - CAUSE
+  - LCV
+  - GSMR
+  - MVMR
+  - pathway_analysis
+  - tissue_enrichment
+  - gene_prioritisation
+
+analysis_boundary:
+  rerun_LDSC: false
+  rerun_retinal_redundancy: false
+  rerun_HDL_L: false
+  rerun_LAVA: false
+  public_release_before_corrected_freeze: false
+
