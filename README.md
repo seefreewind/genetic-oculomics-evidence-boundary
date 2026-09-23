@@ -26,7 +26,7 @@ The project intentionally does not include raw GWAS data, participant-level data
 
 ## Citation
 
-The historical version is archived at DOI [10.5281/zenodo.22875272](https://doi.org/10.5281/zenodo.22875272). Do not cite that archive as containing Amendment 004 until the new versioned Zenodo deposit is published. Use `CITATION.cff` for the current GitHub release metadata.
+Amendment 004 release `v2.0.0` is archived at DOI [10.5281/zenodo.22915396](https://doi.org/10.5281/zenodo.22915396). The concept DOI [10.5281/zenodo.22875271](https://doi.org/10.5281/zenodo.22875271) resolves to the latest version. Use `CITATION.cff` for structured citation metadata.
 
 ## Licence
 

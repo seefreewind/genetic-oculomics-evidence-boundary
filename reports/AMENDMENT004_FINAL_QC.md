@@ -48,4 +48,12 @@
 - Active release paths contain the Amendment 004 protocol, harmonisation records, complete corrected result family, manuscript, tables, figures, source data and scripts.
 - Raw GWAS summary statistics, participant-level data, credentials and local absolute paths are excluded from the public package.
 
-Final QC status: `PASS_WITH_EXTERNAL_ZENODO_VERSION_PENDING`
+## Public release
+
+- GitHub release: `v2.0.0`, published 23 September 2026.
+- GitHub release URL: https://github.com/seefreewind/genetic-oculomics-evidence-boundary/releases/tag/v2.0.0
+- Amendment 004 Zenodo version DOI: `10.5281/zenodo.22915396`.
+- Concept DOI for all versions: `10.5281/zenodo.22875271`.
+- Zenodo file: `seefreewind/genetic-oculomics-evidence-boundary-v2.0.0.zip`, 16.1 MB, public open access.
+
+Final QC status: `PASS`

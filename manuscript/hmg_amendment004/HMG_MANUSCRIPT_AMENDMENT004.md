@@ -118,7 +118,7 @@ Inverse-variance weighting with random effects was prespecified when at least tw
 
 ### 4.6 Reproducibility and data availability
 
-Analysis scripts, frozen configurations, frequency-semantic registries, harmonisation records, complete testing-family outputs and shareable derived data were archived. Tables and figures were generated from the Amendment 004 result freeze, and no post hoc phenotype, outcome, instrument, threshold or estimator substitution was made. The public repository is https://github.com/seefreewind/genetic-oculomics-evidence-boundary. The historical Zenodo record is doi:10.5281/zenodo.22875272; the Amendment 004 package requires a new versioned release before submission. Source GWAS summary statistics remain governed by their originating repositories and licences.
+Analysis scripts, frozen configurations, frequency-semantic registries, harmonisation records, complete testing-family outputs and shareable derived data were archived. Tables and figures were generated from the Amendment 004 result freeze, and no post hoc phenotype, outcome, instrument, threshold or estimator substitution was made. The public repository is https://github.com/seefreewind/genetic-oculomics-evidence-boundary. The Amendment 004 versioned release is archived at doi:10.5281/zenodo.22915396; the concept DOI for all versions is doi:10.5281/zenodo.22875271. Source GWAS summary statistics remain governed by their originating repositories and licences.
 
 ## Funding
 
@@ -134,7 +134,7 @@ Da Lin: conceptualization, data curation, formal analysis, methodology, software
 
 ## Data availability
 
-Derived result tables, analysis configurations, audit scripts, figure-generation scripts and checksums are available at https://github.com/seefreewind/genetic-oculomics-evidence-boundary. The historical Zenodo record is doi:10.5281/zenodo.22875272; a manuscript-compatible Amendment 004 version will be deposited before submission. Source GWAS summary statistics remain available under the terms of their originating studies and repositories.
+Derived result tables, analysis configurations, audit scripts, figure-generation scripts and checksums are available at https://github.com/seefreewind/genetic-oculomics-evidence-boundary and in the Amendment 004 Zenodo release at doi:10.5281/zenodo.22915396. The concept DOI for all versions is doi:10.5281/zenodo.22875271. Source GWAS summary statistics remain available under the terms of their originating studies and repositories.
 
 ## Ethics approval and consent to participate
 

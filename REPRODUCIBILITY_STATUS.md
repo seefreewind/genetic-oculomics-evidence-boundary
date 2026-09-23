@@ -8,7 +8,9 @@ Repository: `seefreewind/genetic-oculomics-evidence-boundary`
 
 Historical Zenodo archive: [10.5281/zenodo.22875272](https://doi.org/10.5281/zenodo.22875272)
 
-Amendment 004 Zenodo version: pending publication
+Amendment 004 Zenodo version: [10.5281/zenodo.22915396](https://doi.org/10.5281/zenodo.22915396)
+
+Concept DOI for all versions: [10.5281/zenodo.22875271](https://doi.org/10.5281/zenodo.22875271)
 
 The frozen public package contains 112 genome-wide correlation pairs, 116,472 primary local tests, 26,639 native local-audit rows, and 112 OCT-only bidirectional MR directions. The directional family comprises seven OCT traits and eight systemic diseases in both directions: 110 directions were null, two were suggestive, and none survived false-discovery-rate correction. Steiger directionality was estimable for 98 directions and supported the specified direction at P<0.05 for 95. Seven retinal vascular traits were not analysed by MR because their release-specific allele-frequency semantics remained unresolved.
 
