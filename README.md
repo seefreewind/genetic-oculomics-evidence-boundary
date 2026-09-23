@@ -13,6 +13,7 @@ The release is designed to let readers inspect the locked analysis configuration
 - `figures/`: PDF, SVG, PNG, and TIFF main figures plus figure source data.
 - `manuscript/hmg_amendment004/`: the editable manuscript and cover letter corresponding to the corrected evidence boundary.
 - `scripts/`: analysis, harmonisation, figure, manuscript, audit, and checksum-generation code.
+- `environment/`: pinned Python requirements and the recorded Python/R execution environment.
 - `archive/legacy_invalid_mr/`: superseded Phase 2 and Phase 2A.1 outputs retained for provenance only and explicitly invalid for interpretation.
 - `checksums/`: a checksum manifest from the complete local project artifact set.
 
