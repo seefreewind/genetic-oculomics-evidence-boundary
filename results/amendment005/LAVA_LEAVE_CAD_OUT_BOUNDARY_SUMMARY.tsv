@@ -1,0 +1,4 @@
+metric	count_all_remaining_rows	denominator_all_remaining_rows	count_native_FDR_positive_rows	native_FDR_positive_denominator
+CI_TOUCHES_OR_EXCEEDS_ABS_RHO_ONE	14515	22979	7	8
+RAW_ABS_RHO_GT_ONE	296	22979	4	8
+RAW_ABS_RHO_GT_ONE_POINT_TWO_FIVE	58	22979	0	8

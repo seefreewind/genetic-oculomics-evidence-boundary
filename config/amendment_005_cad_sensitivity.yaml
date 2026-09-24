@@ -1,0 +1,119 @@
+amendment: '005'
+name: CAD_PROVENANCE_BOUNDED_SENSITIVITY_ANALYSIS
+status: PROSPECTIVELY_LOCKED_BEFORE_SENSITIVITY_RESULTS
+date: '2026-09-24'
+reason: >-
+  CAD summary statistics originate from a predominantly-European multi-ancestry
+  meta-analysis, while LD-dependent analyses use European reference panels and
+  exact file-level sample size is not explicitly reported in the archived
+  summary-statistics file.
+primary_goal: >-
+  Determine whether the manuscript's substantive conclusions depend on CAD
+  inclusion or CAD ancestry/reference uncertainty.
+mandatory_sensitivity: LEAVE_CAD_OUT
+conditional_sensitivity: PROVENANCE_VERIFIED_EUROPEAN_CAD_REPLACEMENT
+current_cad_trait_id: sys_cad_nikpay2015
+current_cad_raw_file: data/raw/systemic/sys_cad_nikpay2015__cad.add.160614.website.txt.complete
+current_cad_raw_sha256: 8b677378270772fbd49c140b75acddb0817b1f321d0cdaca48e91c88758b6f4b
+current_cad_population: PREDOMINANTLY_EUROPEAN_MULTIANCESTRY_CONFIRMED
+current_cad_file_level_n: FILE_LEVEL_N_UNRESOLVED
+existing_fallback_publication_n: 184305
+existing_fallback_cases: 60801
+existing_fallback_controls: 123504
+european_subset_metadata_not_assignable_to_current_file:
+  n: 141217
+  cases: 42096
+  controls: 99121
+frozen_inputs:
+  manuscript: manuscript/hmg_final_polish/HMG_MANUSCRIPT_FINAL_POLISHED.md
+  ldsc: results/ldsc/GENETIC_CORRELATION_MASTER.tsv
+  hdll: results/phase1b/HDLL_LOCAL_RG_MASTER.tsv
+  lava_initial: results/phase1b/LAVA_LOCAL_RG_MASTER.tsv
+  lava_native: results/phase1b_audit/LAVA_NATIVE_PVALUE_COMPARISON.tsv
+  mr: results/amendment004/MR_DIRECTIONAL_MASTER_OCT_ONLY.tsv
+  registry: config/phenotype_registry.tsv
+analysis_rules:
+  exclude_condition: systemic_disease_or_disease_equals_sys_cad_nikpay2015
+  significance_threshold: 0.05
+  fdr_method: Benjamini_Hochberg
+  bh_missing_policy: finite_p_values_only;_preserve_NA_rows
+  preserve_frozen_effects: true
+  no_non_cad_reestimation: true
+  no_automatic_primary_replacement: true
+  ldsc:
+    original_rows: 112
+    removed_cad_rows: 14
+    expected_remaining_rows: 98
+    p_column: p
+    old_q_column: q_global
+    new_family: 98_non_CAD_pairs
+  hdll:
+    original_rows: 116472
+    original_admitted_pairs: 47
+    p_column: p_local_rg
+    old_q_column: q_global_local
+    new_family: all_remaining_non_CAD_block_rows_with_finite_p
+  lava_native:
+    original_rows: 26639
+    p_column: native_lava_p
+    old_q_column: native_q
+    new_family: all_remaining_non_CAD_native_rows_with_finite_p
+    primary_local_interpretation: HDL_L
+  lava_initial:
+    original_rows: 26639
+    p_column: p
+    old_q_column: q_lava_global
+    new_family: all_remaining_non_CAD_initial_rows_with_finite_p
+    interpretation: historical_comparator_only
+  mr:
+    original_rows: 112
+    removed_cad_rows: 14
+    expected_remaining_rows: 98
+    p_column: p
+    old_q_column: q_amendment004_global
+    new_family: 98_non_CAD_OCT_directions
+  boundary_metrics:
+    ci_touches_or_exceeds_abs_rho_one: rho_lower<=-1_or_rho_upper>=1
+    raw_abs_rho_gt_one: abs_raw_rho>1
+    raw_abs_rho_gt_one_point_two_five: abs_raw_rho>1.25
+core_conclusion_cad_independent_if:
+  ldsc_98_fdr_positive: 0
+  hdll_non_cad_global_local_fdr_positive: 0
+  mr_98_fdr_positive: 0
+  lava_is_context_not_boolean_condition: true
+european_cad_source_gate:
+  same_nikpay_2015_cardiogramplusc4d_framework: true
+  phenotype_compatible: true
+  explicitly_european_only: true
+  exact_file_identifiable: true
+  exact_n_cases_controls_documented: true
+  allele_effect_frequency_semantics_documented: true
+  genome_build_known: true
+  summary_statistics_accessible: true
+  provenance_locked_before_results: true
+  ranking:
+    - original_nikpay_2015_european_only_release
+    - official_consortium_european_subset_same_analysis
+    - gwas_catalog_archived_european_subset_explicit_file_provenance
+  forbidden_substitutes:
+    - later_CAD_GWAS
+    - UK_Biobank_CAD
+    - FinnGen
+    - unrelated_CARDIoGRAM_release
+    - OpenGWAS_metadata_assigned_to_current_file
+  if_no_qualified_source: NOT_RUN_NO_PROVENANCE_VERIFIED_MATCHED_EUROPEAN_RELEASE
+  if_qualified_source: lock_source_manifest_before_any_result_and_only_then_run_prespecified_CAD_paths
+material_change_if_any:
+  - new_ldsc_global_fdr_positive_non_CAD_pair
+  - new_hdll_global_local_fdr_positive_non_CAD_block
+  - new_mr_global_fdr_positive_non_CAD_direction
+  - provenanced_european_replacement_corrected_signal_inconsistent_with_primary
+  - strongly_supported_direction_or_sign_change
+  - substantive_manuscript_conclusion_changes
+prohibited:
+  - reestimate_non_CAD_effects
+  - alter_retinal_traits_or_other_seven_diseases
+  - alter_methods_thresholds_or_admission
+  - select_replacement_by_results
+  - write_141217_as_N_for_current_9455778_row_file
+  - silently_rewrite_primary_manuscript_or_public_release

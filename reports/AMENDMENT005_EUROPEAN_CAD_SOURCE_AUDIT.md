@@ -1,0 +1,15 @@
+# Conditional European CAD source gate
+
+**Gate result:** `EUROPEAN_CAD_SENSITIVITY=NOT_RUN`; reason `NO_PROVENANCE_VERIFIED_MATCHED_EUROPEAN_RELEASE`. No replacement file was downloaded, selected by results, harmonized or analysed. The existing 9,455,778-row `cad.add.160614.website.txt` retains its 184,305 publication-linked fallback; 141,217 was not assigned to it.
+
+The protocol required a European-only CAD source from the *same* Nikpay 2015/CARDIoGRAMplusC4D framework with an exact identifiable file, explicit N/cases/controls, genome build, allele/effect and frequency semantics, accessible statistics and provenance locked before viewing results. The search followed the prescribed source ranking:
+
+| Rank | Source checked | Finding | Gate |
+|---|---|---|---|
+| 1. Original Nikpay 2015 European-only release | [Original article and supplement](https://www.nature.com/articles/ng.3396), [current consortium downloads](https://cardiogramplusc4d.org/data-downloads/) | The publication distinguishes ancestry strata, but the available download page points to portals rather than an identified European-only summary-statistics file with the required complete metadata. | FAIL: exact European file and semantics not established. |
+| 2. Official consortium subset | Consortium download page and exact-file searches for `cad.add.160614`, `European`, `141217`, `42096`, `99121` | No separate, accessible same-framework European-only file with all required evidence was located. | FAIL. |
+| 3. GWAS Catalog archived subset | [GCST003116 archive directory](https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST003001-GCST004000/GCST003116/) and its `harmonised/` directory | The root has `cad.add.160614.website.txt` and `cad.add.readme`, not a separately labelled European-only original file. The [harmonized metadata YAML](https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST003001-GCST004000/GCST003116/harmonised/26343387-GCST003116-EFO_0000378.h.tsv.gz-meta.yaml) lists **multiple ancestry groups**, labels GRCh38, and names a different derived file. | FAIL: not European-only and not a matched physical release. |
+
+The European `141,217` in catalog/harmonized study metadata is an ancestry category count, not proof that either `cad.add.160614.website.txt` or the harmonized file contains European-only beta/SE. The harmonized metadata ancestry-category totals also do not equal the original paper's 184,305 final total, reinforcing the need not to treat study metadata as an exact-file analytic N. [OpenGWAS `ebi-a-GCST003116`](https://opengwas.io/datasets/ebi-a-GCST003116) is a transformed representation with a different indexed variant count and likewise does not satisfy the exact-source gate. Secondary studies and newer CAD GWAS were not eligible replacements.
+
+This is a bounded negative search, not proof that no European-only data exist anywhere. A future consortium-provided exact file could reopen the gate under a new lock. No `config/amendment005_european_cad_source.tsv` was created because no source qualified.
